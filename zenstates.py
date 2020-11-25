@@ -27,6 +27,7 @@ SMU_CMD_OC_ENABLE =         0
 SMU_CMD_OC_DISABLE =        0
 SMU_CMD_OC_FREQ_ALL_CORES = 0
 SMU_CMD_OC_VID =            0
+SMU_CMD_GET_PBO_SCALAR =    0
 
 isOcFreqSupported = False
 cpu_sockets = int(os.popen('cat /proc/cpuinfo | grep "physical id" | sort -u | wc -l').read())
